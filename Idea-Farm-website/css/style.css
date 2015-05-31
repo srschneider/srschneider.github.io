@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 
 body {
@@ -16,16 +15,26 @@ body {
 	margin: 0;
 
 }
+#header {
+	height: 70px; 
+	background: rgba(40,34,31, 0.5);
+	border-bottom: 1px rgba(255,255,255, 0.2) solid;
+}
 
+.logo {
+	float: left;
+}
 
-
+.nav {
+	float: right;
+}
 
 #welcome-about {
 	/*background: rgba(240,181,104, 0.3);*/
 	/*background: rgba(137,194,179, 0.6);*/
 	background: rgba(40,34,31, 0.5);
 	height: 100%;
-	padding: 10.5em;
+	padding: 6em;
 	margin: 0;
 }
 
@@ -40,38 +49,35 @@ h1, h2 {
 #our-mission {
 	background: #F0B568;
 	height: 100%;
-	padding: 2.5em;
+	padding: 2em;
 	margin: 0;
 }
 
 /*.wrapper {
-	width: 1400px;
-	padding: 10em;
-	margin: .5em;	
+	padding: .2em;
+	margin: 0;	
 }*/
 
 /* margin/padding I'm not sure which to control first - please help!! */
 
 .cultivate {
-	width: 450px;
-	padding: 6em;
-	margin: 0.2;
+	width: 320px;
+	padding: 3em;
+	margin: 0;
 	color: #28221F;
 }
 
 .harvest {
-	width: 450px;
-	padding: 6em;
-	margin: .2em;
-	float: right;
+	width: 320px;
+	padding: 3em;
+	margin: 0;
 	color: #28221F;
 }
 
 .unearth {
-	width: 450px;
-	padding: 6em;
-	margin: .2em;
-	float: right;
+	width: 320px;
+	padding: 3em;
+	margin: 0;
 	color: #28221F;
 }
 
@@ -117,4 +123,12 @@ ul {
 	font-size: 16px;
 } 
 
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
 
