@@ -10,85 +10,124 @@ body {
 	background-repeat: no-repeat;
 	color: #fff;
 	font-family: 'Source Sans Pro', sans-serif;;
-/*	font-family: "Gotham", sans-serif;*/
 	background-image: url("../images/tl-41.jpg");
 	margin: 0;
 
 }
-#header {
-	height: 70px; 
-	background: rgba(40,34,31, 0.5);
+header {
+	height: 100px; 
+	background: rgba(67,61,60, 0.5);
 	border-bottom: 1px rgba(255,255,255, 0.2) solid;
 }
 
 .logo {
 	float: left;
+	display: block;
+	padding: 10px;
+	margin: 5px;
+
 }
 
-.nav {
+nav {
+	padding: 15px;
+	margin: 10px;
 	float: right;
 }
 
 #welcome-about {
-	/*background: rgba(240,181,104, 0.3);*/
-	/*background: rgba(137,194,179, 0.6);*/
-	background: rgba(40,34,31, 0.5);
+	background: rgba(67,61,60, 0.5);
 	height: 100%;
 	padding: 6em;
 	margin: 0;
 }
 
-h1, h2 {
+.welcome {
+	display: block;
+	height: 250px;
+
+}
+
+h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 100px;
 	font-weight: 600;
 	text-transform: uppercase;
-	line-height: 1.6em;
+	line-height: .2em;
+	padding: .5em;
+	margin: .2em;
+
+	/*Why is the content box so large that I can't get the padding exactly on its edge?*/
 }
 
+span {
+	color: #F0B568;
+	/*line-height: 0.1em;*/
+	padding: .8em;
+	margin: 0 2em;
+	float: right;
+	clear: both;
+	text-align: center;
+
+	/*why is this not centered?*/
+}
+
+#slogan {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 1em;
+
+	/*why can't I control the margin above the #slogan*/
+
+}	
+
 #our-mission {
+	/*background: #FBF4ED;*/
 	background: #F0B568;
 	height: 100%;
 	padding: 2em;
 	margin: 0;
+	display: block;
+
 }
 
-/*.wrapper {
-	padding: .2em;
-	margin: 0;	
-}*/
 
-/* margin/padding I'm not sure which to control first - please help!! */
+h3 {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 1em;
 
+}
+
+.box {
+	display: block;
+
+
+}
 .cultivate {
 	width: 320px;
 	padding: 3em;
 	margin: 0;
-	color: #28221F;
+	color: #433D3C;
 }
 
 .harvest {
 	width: 320px;
 	padding: 3em;
 	margin: 0;
-	color: #28221F;
+	color: #433D3C;
 }
 
 .unearth {
 	width: 320px;
 	padding: 3em;
 	margin: 0;
-	color: #28221F;
+	color: #433D3C;
 }
 
-
-#important-text {
-	/*color: rgb(192,57,43);*/
-	/*#A94B50;*/
-	/*color: #89C2B3;*/
-	color: #F0B568;
-	line-height: 0.1em;
-}
 
 p {
 	font-family: 'Roboto Slab', serif;
@@ -98,6 +137,27 @@ p {
 	margin-top: 1em;
 }
 
+#clients {
+	height: 8em;
+	width: 100%;
+	background: #FBF4ED;
+	padding: 4em;
+
+}
+
+img {
+	display: inline-block;
+	height: 7em;
+	margin: 0 2em;
+}
+
+#contact {
+	height: 8em;
+	width: 100%;
+	background: #F0B568;
+	padding: 4em;
+
+}
 .contact {
 
 	font-family: 'Source Sans Pro', sans-serif;
@@ -107,21 +167,20 @@ p {
 
 }
 
-#slogan {
-	font-family: 'Roboto Slab', sans-serif;
-	font-size: 30px;
-	font-weight: 400;
-	text-transform: uppercase;
-	margin-top: 1.8em;
-	margin-bottom: .5em;
-	padding: 0.2em;
-}	
+
 
 ul {
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
 } 
+
+footer {
+	background-color: #433D3C;
+	height: 200px;
+	margin: 0;
+
+}
 
 
 .clearfix:after { 
