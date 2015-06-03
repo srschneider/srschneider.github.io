@@ -1,19 +1,21 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
 	text-align: center;
 	background-color: rgb(192,57,43);
-	background-size: 1440px;
-	background-repeat: no-repeat;
+	/*background-size: 2000px;
+	background-repeat: no-repeat;*/
 	color: #fff;
-	font-family: 'Source Sans Pro', sans-serif;;
+	/*font-family: 'Source Sans Pro', sans-serif;;
 	background-image: url("../images/splash-image-2000px.jpg");
-	margin: 0;
+	margin: 0;*/
 
 }
+
 header {
 	height: 100px; 
 	background: rgba(67,61,60, 0.5);
@@ -29,22 +31,47 @@ header {
 }
 
 nav {
+	font-family: 'Source Sans Pro', sans-serif;
 	padding: 15px;
 	margin: 10px;
 	float: right;
+	color: #ffffff;
+	/* 2) why isn't the nav text color showing up white*/
 }
+
+a {
+	text-decoration: none;
+	color: #741826; 
+}
+
+a:hover {
+
+	text-decoration: underline;
+	color: #CC525A;
+}
+
 
 #welcome-about {
-	background: rgba(67,61,60, 0.5);
-	height: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
 	padding: 6em;
 	margin: 0;
+	background-repeat: no-repeat;
+	background-origin: left;
+	background-image: url("../images/splash-image-2000px.jpg");
+	background-size: 1400px;
+	background: rgba(67,61,60, 0.5);
+	display: block;
+
+/*	1)	when I added the image to this section - it wouldn't show up. 
+then when it did, it was inside of the padding and above the opacity "layer".
+When I add it to the html, it turns into a tiny image over the welcome text */
 }
 
-.welcome {
-	display: block;
-	height: 250px;
 
+.welcome {
+	width: 70%;
+	text-align: center;
+	margin: auto;
 }
 
 h1 {
@@ -52,23 +79,11 @@ h1 {
 	font-size: 100px;
 	font-weight: 600;
 	text-transform: uppercase;
-	line-height: .2em;
-	padding: .5em;
-	margin: .2em;
-
-	/*Why is the content box so large that I can't get the padding exactly on its edge?*/
+	line-height: 1em;
 }
 
 span {
-	color: #F0B568;
-	/*line-height: 0.1em;*/
-	padding: .8em;
-	margin: 0 2em;
-	float: right;
-	clear: both;
-	text-align: center;
-
-	/*why is this not centered?*/
+	color: #F0B568;	
 }
 
 #slogan {
@@ -77,9 +92,6 @@ span {
 	font-weight: 400;
 	text-transform: uppercase;
 	margin-top: 1em;
-
-	/*why can't I control the margin above the #slogan*/
-
 }	
 
 #our-mission {
@@ -93,7 +105,7 @@ span {
 }
 
 
-h3 {
+h2 {
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: 30px;
 	font-weight: 400;
@@ -102,32 +114,18 @@ h3 {
 
 }
 
-.box {
-	display: block;
+h3, h4, h5 {
 
-
+	/*make these*/
 }
+
 .cultivate {
-	width: 320px;
+	width: 33.33%;
 	padding: 3em;
 	margin: 0;
 	color: #433D3C;
+	float: left;
 }
-
-.harvest {
-	width: 320px;
-	padding: 3em;
-	margin: 0;
-	color: #433D3C;
-}
-
-.unearth {
-	width: 320px;
-	padding: 3em;
-	margin: 0;
-	color: #433D3C;
-}
-
 
 p {
 	font-family: 'Roboto Slab', serif;
@@ -138,10 +136,12 @@ p {
 }
 
 #clients {
-	height: 8em;
 	width: 100%;
-	background: #FBF4ED;
+	background-color: #433D3C;
+	/*background: #FBF4ED;*/
 	padding: 4em;
+	/*I cut these to be pretty small so if I take out the padding
+	the section is pretty tight on the logos*/
 
 }
 
