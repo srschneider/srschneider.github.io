@@ -44,9 +44,9 @@ a:hover {
 	text-align: left;
 	background-color: #333;
 	/*background-image: url("1746-felix-fox2000.jpg");*/
-	width: 1450px;
-	/*height: 360px;*/
-	/*height: 300px;*/
+	width: 960px;
+	height: 560px;
+	margin: auto;
 }
 
 /*still can't get the image to be the background of the div.*/

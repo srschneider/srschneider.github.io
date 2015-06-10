@@ -33,7 +33,7 @@ header {
 nav {
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 15px;
-	margin: 10px;
+	margin: 25px;
 	float: right;
 	color: #ffffff;
 	/* 2) why isn't the nav text color showing up white*/
@@ -41,12 +41,13 @@ nav {
 
 a {
 	text-decoration: none;
-	color: #741826; 
+	color: #f3f3f3;
+	padding-right: .5em;
 }
 
 a:hover {
 
-	text-decoration: underline;
+	text-decoration: none;
 	color: #CC525A;
 }
 
@@ -96,7 +97,8 @@ span {
 
 #our-mission {
 	/*background: #FBF4ED;*/
-	background: #F0B568;
+	/*background: #F0B568;*/
+	background: #FDF6EF;
 	height: 100%;
 	padding: 2em;
 	margin: 0;
@@ -111,7 +113,13 @@ h2 {
 	font-weight: 400;
 	text-transform: uppercase;
 	margin: 1em;
+	color: #731827;
 
+}
+
+.misssion {
+	color: #731827;
+	line-height: .5em;
 }
 
 h3, h4, h5 {
@@ -176,12 +184,14 @@ ul {
 } 
 
 footer {
-	background-color: #433D3C;
-	height: 200px;
-	margin: 0;
-
+	height: 90px;
 }
 
+.copyright {
+	padding: 1.5em;
+	color: #FDF6EF;
+
+}
 
 .clearfix:after { 
 	content: "."; 
