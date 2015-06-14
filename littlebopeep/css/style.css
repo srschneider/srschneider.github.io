@@ -5,15 +5,15 @@
 }
 
 body {
-	background: #bae4df;
 	font-family: "Open Sans", Arial, sans-serif;
 	color: #f3f3f3;
 }
 
 header {
+	background: #bae4df;
 	width: 100%;
 	padding: 2em;
-	height: 180px;
+	/*height: 180px; don't set height*/ 
 	/*border-bottom: solid 2px #fadc65;*/
 }
 
@@ -43,7 +43,9 @@ a:hover {
 	padding: 4em;
 	text-align: left;
 	background-color: #333;
-	/*background-image: url("1746-felix-fox2000.jpg");*/
+	background-image: url("../images/1746-felix-fox2000.jpg");
+	background-size: cover;
+	background-position: right;
 	width: 960px;
 	height: 560px;
 	margin: auto;
@@ -60,12 +62,10 @@ a:hover {
 .hero-text {
 	display: block;
 	text-align: left;
-	padding-top: 1em; 
-	padding-right: 40em;
-	padding-bottom: 1em;
-	padding-left: 5em;
+	padding: 1em;
 	margin: .5em .2em;
 	color: #fff;
+	width: 33.33%;
 	/*color: #345;*/
 	line-height: 1.5em;
 

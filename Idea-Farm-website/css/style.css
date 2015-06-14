@@ -6,19 +6,16 @@
 
 body {
 	text-align: center;
-	background-color: rgb(192,57,43);
-	/*background-size: 2000px;
-	background-repeat: no-repeat;*/
+	/*background-color: rgb(192,57,43);*/
+	background-color: #813A33;
 	color: #fff;
-	/*font-family: 'Source Sans Pro', sans-serif;;
-	background-image: url("../images/splash-image-2000px.jpg");
-	margin: 0;*/
+	font-family: 'Source Sans Pro', sans-serif;;
 
 }
 
 header {
 	height: 100px; 
-	background: rgba(67,61,60, 0.5);
+	/*background: rgba(67,61,60, 0.5);*/
 	border-bottom: 1px rgba(255,255,255, 0.2) solid;
 }
 
@@ -35,7 +32,7 @@ nav {
 	padding: 15px;
 	margin: 25px;
 	float: right;
-	color: #ffffff;
+	color: #FDF6EF;
 	/* 2) why isn't the nav text color showing up white*/
 }
 
@@ -56,16 +53,13 @@ a:hover {
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 6em;
 	margin: 0;
-	background-repeat: no-repeat;
-	background-origin: left;
 	background-image: url("../images/splash-image-2000px.jpg");
-	background-size: 1400px;
-	background: rgba(67,61,60, 0.5);
-	display: block;
+	background-size: cover;
+	width: 1406px;
+	/*background: rgba(67,61,60, 0.5);*/
 
-/*	1)	when I added the image to this section - it wouldn't show up. 
-then when it did, it was inside of the padding and above the opacity "layer".
-When I add it to the html, it turns into a tiny image over the welcome text */
+/*opacity on overlay color for behind the text? when putting .welcome, it just goes the size of the
+text div, when putting over the image it makes the image disapear */
 }
 
 
@@ -73,6 +67,8 @@ When I add it to the html, it turns into a tiny image over the welcome text */
 	width: 70%;
 	text-align: center;
 	margin: auto;
+background: rgba(67,61,60, 0.3);
+
 }
 
 h1 {
@@ -163,6 +159,7 @@ img {
 	height: 8em;
 	width: 100%;
 	background: #F0B568;
+	/*background: #FDF6EF;*/
 	padding: 4em;
 
 }
