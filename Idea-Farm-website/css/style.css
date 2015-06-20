@@ -7,47 +7,58 @@
 body {
 	text-align: center;
 	/*background-color: rgb(192,57,43);*/
-	background-color: #813A33;
+	/*background-color: #813A33;*/
 	color: #fff;
 	font-family: 'Source Sans Pro', sans-serif;;
 
 }
 
 header {
-	height: 100px; 
+	/*height: 100px; */
 	/*background: rgba(67,61,60, 0.5);*/
-	border-bottom: 1px rgba(255,255,255, 0.2) solid;
+	background-color: #433D3C;
+	position: relative;
+	/*position: fixed;*/
+	border-bottom: 1.7em solid #A82033;
+	/*background-color: #FDF6EF;*/
+	/*border-bottom: 1px rgba(255,255,255, 0.2) solid;*/
 }
 
 .logo {
 	float: left;
-	display: block;
-	padding: 10px;
-	margin: 5px;
+	/*display: block;*/
+	/*position: absolute; */
+	/*left: 10%;*/
+	/*top: 75%;*/
+	padding: .9em;
+	/*padding: 10px;*/
+	margin-left: 17em;
 
 }
 
 nav {
 	font-family: 'Source Sans Pro', sans-serif;
-	padding: 15px;
-	margin: 25px;
+	/*padding: 15px;*/
+	/*margin: 25px;*/
 	float: right;
 	color: #FDF6EF;
-	/* 2) why isn't the nav text color showing up white*/
+	position: absolute;
+	right: 20%;
+	top: 65%
 }
 
 a {
 	text-decoration: none;
-	color: #f3f3f3;
+	text-transform: uppercase;
+	color: #FDF6EF;
 	padding-right: .5em;
 }
 
 a:hover {
 
 	text-decoration: none;
-	color: #CC525A;
+	color: #efb46e;
 }
-
 
 #welcome-about {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -57,19 +68,27 @@ a:hover {
 	background-size: cover;
 	width: 1406px;
 	/*background: rgba(67,61,60, 0.5);*/
-
-/*opacity on overlay color for behind the text? when putting .welcome, it just goes the size of the
-text div, when putting over the image it makes the image disapear */
 }
-
 
 .welcome {
 	width: 70%;
 	text-align: center;
 	margin: auto;
-background: rgba(67,61,60, 0.3);
+	
+}
+
+.splash-overlay {
+	width: 1406px;
+	background: rgba(67,61,60, 0.3);
+	/*position: absolute;*/
+	/*right: 0%;*/
+
+/*opacity on overlay color for behind the text? when putting .welcome, it just goes the size of the
+text div, when putting over the image it makes the image disapear, when making it its own div, it doesn't
+position correctly ???????????????*/
 
 }
+
 
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -77,6 +96,7 @@ h1 {
 	font-weight: 600;
 	text-transform: uppercase;
 	line-height: 1em;
+	color: #FDF6EF;
 }
 
 span {
@@ -89,7 +109,21 @@ span {
 	font-weight: 400;
 	text-transform: uppercase;
 	margin-top: 1em;
+	color: #FDF6EF;
+	/*color: #8AC2B4;*/
 }	
+
+.splash {
+	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Roboto Slab', serif;*/
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5em;
+	margin-top: 1em;
+	/*padding: .2em -.5em;*/
+	color: #FDF6EF;
+
+}
 
 #our-mission {
 	/*background: #FBF4ED;*/
@@ -104,49 +138,113 @@ span {
 
 
 h2 {
-	font-family: 'Roboto Slab', sans-serif;
-	font-size: 30px;
-	font-weight: 400;
+	/*font-family: 'Roboto Slab', sans-serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
 	text-transform: uppercase;
-	margin: 1em;
-	color: #731827;
+	margin-top: 1em;
+	margin-bottom: .2em;
+	/*color: #731827;*/
+	color: #A82033;
 
+}
+
+/*.yellowc {
+	margin-top: .7em;
+	margin-bottom: 1em;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	color: #F0B568;	
+
+
+}*/
+
+.full-circle {
+	 background-color: rgba(240, 181, 104, 0);
+	 border: 3px solid #F0B568;
+	 height: 150px;
+	 width: 150px;
+	 border-radius:75px;
+	 border-radius: 75px;
 }
 
 .misssion {
-	color: #731827;
-	line-height: .5em;
+	color: #433D3C;
+	/*color: #731827;*/
+	/*line-height: .5em;*/
+	padding: .3em 6em;
+	margin: 0em;
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	font-weight: 400;
 }
 
-h3, h4, h5 {
+.misssion2 {
+	color: #433D3C;
+	/*color: #A82033;*/
+	/*color: #F0B568;*/
+	/*color: #731827;*/
+	/*line-height: .5em;*/
+	padding: .1em;
+	margin-top: 0em;
+	margin-bottom: 1.5em; 
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	font-weight: 700;
+}
 
-	/*make these*/
+.tiers {
+	padding: 1em 6em;
+}
+
+h3 {
+
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	/*margin-top: 1em;*/
+	/*margin-bottom: .5em;*/
+	/*color: #731827;*/
+	/*color: #A82033;*/
+	color: #433D3C;
+
+}
+
+h4 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #A82033;
+
 }
 
 .cultivate {
 	width: 33.33%;
-	padding: 3em;
-	margin: 0;
+	padding: 0em 3em;
+	margin-bottom: 4em;
+	/*margin-top: 1em;*/
 	color: #433D3C;
 	float: left;
 }
 
-p {
-	font-family: 'Roboto Slab', serif;
-	font-size: 20px;
-	font-weight: 300;
-	line-height: 1.25em;
+p {	
+	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Roboto Slab', serif;*/
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5em;
 	margin-top: 1em;
+	/*padding: .2em -.5em;*/
+	color: #808080;
 }
 
 #clients {
 	width: 100%;
 	background-color: #433D3C;
-	/*background: #FBF4ED;*/
-	padding: 4em;
-	/*I cut these to be pretty small so if I take out the padding
-	the section is pretty tight on the logos*/
-
+	padding: 2.5em;
 }
 
 img {
@@ -172,13 +270,32 @@ img {
 
 }
 
+/*.client-wrapper {
+	margin: 2em 0em;
+}*/
 
+a.cta1 {
+	/*color: #433D3C;*/
+	color: #FDF6EF;
+	padding: .8em 3em;
+	/*margin: 40em 0em; why can't i add any margin here????????????????*/
+	background-color: rgba (3, 3, 3, 0);
+	text-decoration: none;
+	border: solid 1px #FDF6EF;
+	border-radius: 2px;
+}
 
-ul {
+.cta1:hover {
+	background-color: #FDF6EF;
+	color: #F0B568;
+
+}
+
+/*ul {
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
-} 
+} */
 
 footer {
 	height: 90px;

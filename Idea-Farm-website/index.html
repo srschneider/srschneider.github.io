@@ -9,64 +9,79 @@
 
 <body>	
 
-<header>
-	<div class="logo">
-		<img src="images/if-logo-60.png" alt="Idea Farm Logo">
+<header class="clearfix">
+	<!-- <div class="logo"> -->
+		<img src="images/if-logo-60.png" class="logo" alt="Idea Farm Logo">
 		<a href="index.html"></a>  
 		<!-- will this work to bring the user to the home page by clicking the logo? -->
-	</div>
+	<!-- </div> -->
 		<nav> <!-- should the nav be a unordered list? -->
-			<a href="pages/about.html">about</a>
+			<a href="index.html">home</a>
+			<!-- <a href="pages/about.html">about</a> -->
 			<a href="pages/approach.html">our approach</a>
-			<a href="index.html">contact</a>
+			<a href="../index.html">contact</a>
 			<!-- would like "our approach" and "contact" to just be deep links that scroll to that part of the 2nd page, and the logo to be a link to the home page-->
 		</nav>
 </header> 
 
 <section id="welcome-about">
-	<div class="welcome">
+	<div class="splash-overlay">
+		<div class="welcome">
 		<h1>Welcome to<br><span>Idea Farm</span></h1>
 	
 		<p id="slogan">we cultivate ideas</p>
-		<p>
+		<p class="splash">
 			Idea Farm partners with organizations and communities to transform culture, empower creative thinking, and catalyze design and innovation efforts.
 		</p>
 
-		<p>
+		<!-- <p class="splash">
 			We leverage our expertise in facilitation and training to deliver insightful immersions that are tailored to your needs.
-		</p>
+		</p> -->
+		</div>
 	</div>
 </section>
 
 <section id="our-mission" class="clearfix">
 	<h2>Our Mission</h2>
-		<p class="misssion">We firmly believe that everyone is capable of breakthrough, creative thinking.</p>
-		<p class="misssion">Yes. Everyone!</p>
-			<div class="cultivate">
-				<h3>Cultivate Creativity</h3>
-				<h4>Develop Innovation Skills</h4>
-						<p>
-							We help you amplify the creative potential of your stakeholders. Our project-based learning experiences empower individuals and teams to cultivate dormant mind space and apply new skills immediately with confidence and coaching.
-						</p>
-			</div>
+		<p class="misssion">We leverage our expertise in facilitation and training to deliver insightful immersions that are tailored to your needs.
+		</p> 
+		<!-- <p class="misssion">
+		We firmly believe that everyone is capable of breakthrough, creative thinking.</p>
+		<p class="misssion2">Yes. Everyone!</p> -->
+			<div class="tiers">
+				<div class="cultivate">
+				<img src="images/icons-single1.png" class="yellowc" alt="icon1">
+					<h3>Cultivate Creativity</h3>
+					<h4>Develop Innovation Skills</h4>
+							<p>
+								We help you amplify the creative potential of your stakeholders. Our project-based learning experiences empower individuals and teams to cultivate dormant mind space and apply new skills immediately with confidence and coaching.
+							</p>
+				</div>
 
-			<div class="cultivate">
-				<h3>Harvest Ideas</h3>
-				<h4>Strategic Imagination</h4>
-						<p>
-							We design immersive experiences that activate stakeholder engagement and alignment. Our expert facilitation ensures that teams co-create insights and actionable ideas with visible, measurable impact.
-						</p>
-			</div>
-			<div class="cultivate">
-				<h3>Unearth Innovation</h3>
-				<h4>Evolve Stakeholder Relationships</h4>
-						<p>
-							We design and implement research engagements to help you have deeply meaningful conversations and discover new insights to fuel strategy and design. We specialize in creating unique learning environments that energize both consumers and clients.
-						</p>
-			</div>
+				<div class="cultivate">
+				<div class="full-circle">
+				<img src="images/icons-single2.png" class="yellowc" alt="icon2">
+				</div>
+				
+					<h3>Harvest Ideas</h3>
+					<h4>Strategic Imagination</h4>
+							<p>
+								We design immersive experiences that activate stakeholder engagement and alignment. Our expert facilitation ensures that teams co-create insights and actionable ideas with visible, measurable impact.
+							</p>
+				</div>
+				<div class="cultivate">
+				<img src="images/icons-single3.png" class="yellowc" alt="icon3">
+					<h3>Unearth Innovation</h3>
+					<h4>Evolve Stakeholder Relationships</h4>
+							<p>
+								We design and implement research engagements to help you have deeply meaningful conversations and discover new insights to fuel strategy and design. We specialize in creating unique learning environments that energize both consumers and clients.
+							</p>
+				</div>
+			</div>	
 </section>
 
 <section id="clients"> <!-- would like to have a horizontal scroll for these  -->
+	<div class="client-wrapper">	
 		<img src="images/logos/city-of-tempe.png" alt="City of Tempe Logo">
 		<img src="images/logos/schwak.png" alt="Schwak! Logo">
 		<img src="images/logos/VML_logo_stacked_transp.png" alt="VML Logo">
@@ -74,7 +89,7 @@
 		<img src="images/logos/bestfriends.png" alt="USG Logo">
 		<img src="images/logos/usg.png" alt="USG Logo">
 		<img src="images/logos/aiga.png" alt="AIGA Logo">
-		<img src="images/logos/asu-gis.png" alt="ASU GIS Logo">
+		<!-- <img src="images/logos/asu-gis.png" alt="ASU GIS Logo">
 		<img src="images/logos/asurion.png" alt="Asurion Logo">
 		<img src="images/logos/b-and-g.png" alt="Boys and Girls Club Logo">
 		<img src="images/logos/emi.png" alt="Emmi Logo">
@@ -91,9 +106,8 @@
  		<img src="images/logos/srp.png" alt="SRP Logo">
 		<img src="images/logos/svp-crappy.png" alt="SVP Logo">
 		<img src="images/logos/taproot.png" alt="Taproot Logo">
-		<img src="images/logos/teachforamerica.png" alt="Teach for America Logo">
-		
-
+		<img src="images/logos/teachforamerica.png" alt="Teach for America Logo"> -->
+	</div>	
 		<a href="pages/about.html" class="cta1">case studies</a>
 		<!-- would like this button to deep link on the next page -->
 </section>
