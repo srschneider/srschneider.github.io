@@ -61,7 +61,7 @@ a:hover {
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 2em, 6em;
 	margin: 0;
-	background-image: url("../images/splash-image-2000px.jpg");
+	/*background-image: url("../images/splash-image-2000px.jpg");*/
 	background-size: cover;
 	width: 1436px;
 
@@ -334,13 +334,17 @@ p.copyright {
 
 
 #page2-intro {
-	/*padding: 5em, 6em;*/
-	/*margin: 4;*/
-	/*background-color: #FDF6EF; */
+	background-color: #FDF; 
 	/*background-color: #F0B568;*/
-	width: 1436px;
+	/*background-image: url("../images/splash-image-2000px.jpg");*/
+	/*background-size: cover; */
 }
 
+/*.splash-overlay2{
+	background: rgba(67,61,60, 0.4);
+	padding: 4em;
+}
+*/
 .intro-page2 {
 	padding: 2em;
 }
@@ -414,7 +418,7 @@ p.copyright {
 	padding-right: 1em;
 	padding-left: 18em;
 	border-right: 2px solid #89C2B3;
-	padding-bottom: 3em;
+	padding-bottom: 2em;
 
 }
 #right-column {
@@ -430,7 +434,7 @@ p.left-column {
 	/*float: left;*/
 	text-align: right;
 	line-height: 1.2em;
-	margin: 2em 0em;
+	margin: 2.5em 0em;
 
 }
 
