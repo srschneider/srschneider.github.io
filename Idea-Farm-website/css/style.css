@@ -15,27 +15,20 @@ body {
 
 header {
 	position: relative;
-	background: rgba(67,61,60, 0.35);
+	background: rgba(159,127,80, 0.35);
 	border-bottom: 1px rgba(255,255,255, 0.2) solid;
 }
 
 .logo {
 	float: left;
-	/*display: block;*/
-	/*position: absolute; */
-	/*left: 10%;*/
-	/*top: 75%;*/
 	padding: .2em;
 	margin-top: .2em;
-	/*padding: 10px;*/
 	margin-left: 7em;
 
 }
 
 nav {
 	font-family: 'Source Sans Pro', sans-serif;
-	/*padding: 15px;*/
-	/*margin: 25px;*/
 	float: right;
 	color: #FDF6EF;
 	position: absolute;
@@ -62,7 +55,6 @@ a:hover {
 	padding: 2em, 6em;
 	margin: 0;
 	background-image: url("../images/TL_17-s.png");
-	/*background-image: url("../images/splash-image-2000px.jpg");*/
 	background-size: cover;
 	width: 100%;
 
@@ -81,7 +73,7 @@ a:hover {
 
 .splash-overlay {
 	width: 100%;
-	background: rgba(67,61,60, 0.35);
+	background: rgba(159,127,80, 0.35);
 	padding: 4em;
 	/*position: absolute;*/
 	/*right: 0%;*/
@@ -95,7 +87,7 @@ position correctly ???????????????*/
 
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 80px;
+	font-size: 480%;
 	font-weight: 600;
 	text-transform: uppercase;
 	line-height: .9em;
@@ -103,7 +95,8 @@ h1 {
 }
 
 span {
-	color: #F0B568;	
+	color: #F0B568;
+	/*color: #A82033;*/
 }
 
 /*#slogan {
@@ -119,13 +112,14 @@ span {
 p.splash {
 	/*font-family: 'Source Sans Pro', sans-serif;*/
 	font-family: 'Roboto Slab', serif;
-	font-size: 22px;
+	font-size: 145%;
 	font-weight: 400;
 	line-height: 1.4em;
 	margin-top: 1em;
 	padding: 0 12em 0 0;
 	/*padding: .2em -.5em;*/
 	color: #FDF6EF;
+	/*color: #808080;*/
 
 }
 
@@ -144,7 +138,7 @@ p.splash {
 h2 {
 	/*font-family: 'Roboto Slab', sans-serif;*/
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 50px;
+	font-size: 255%;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: .5em;
@@ -205,33 +199,50 @@ h2 {
 	/*margin-bottom: 1.4em;*/
 }
 
-h3 {
-
+.h22 {
+	/*font-family: 'Roboto Slab', sans-serif;*/
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 25px;
+	font-size: 255%;
 	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: .5em;
+	margin-bottom: .1em;
+	/*color: #731827;*/
+	color: #FDF6EF;
+
+}
+
+h3 {
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 150%;
+	font-weight: 600;
 	text-transform: uppercase;
 	/*margin-top: 1em;*/
 	/*margin-bottom: .5em;*/
 	/*color: #731827;*/
 	/*color: #A82033;*/
-	color: #433D3C;
+	/*color: #433D3C;*/
+	color: #EFB46E;
 	margin-top: .5em;
 
 }
 
 h4 {
 	font-family: 'Roboto Slab', serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
 	font-weight: 500;
-	font-size: 18px;
-	color: #A82033;
-	margin: .2em 0;
+	font-size: 105%;
+	/*color: #A82033;*/
+	color: #433D3C;
+	/*color: #EFB46E;*/
+	margin: .1em 0;
 
 }
 
 .cultivate {
 	width: 33.33%;
-	padding: 0em 4em;
+	padding: 0em 5em;
 	margin-top: 2em;
 	margin-bottom: 6em;
 	/*margin-top: 1em;*/
@@ -242,12 +253,31 @@ h4 {
 p {	
 	font-family: 'Source Sans Pro', sans-serif;
 	/*font-family: 'Roboto Slab', serif;*/
-	font-size: 18px;
+	font-size: 100%;
 	font-weight: 400;
-	line-height: 1.5em;
+	line-height: 1.4em;
 	margin-top: 1em;
 	/*padding: .2em -.5em;*/
 	color: #808080;
+}
+
+/*#activity-images {
+	background-image: url("../images/cropped-images/601101_10151195316150703_1230096407_n.jpg");
+	width: 16%;*/
+	/*why aren't these showing up here?*/
+/*}*/
+
+/*#activity-images {
+	width: 100%;
+}*/
+
+.activity {
+	width: 16%;
+
+}
+.intro-page2 {
+	background-color: #F0B568;
+
 }
 
 
