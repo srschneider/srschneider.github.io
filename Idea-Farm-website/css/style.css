@@ -304,7 +304,8 @@ p {
 }
 
 #approach {
-	padding: 3em 2em 6em 2em;
+	padding: 3em 0em .5em;
+	/*padding: 3em 2em 6em 2em;*/
 	background-color: #FDF6EF;
 }
 
@@ -397,10 +398,30 @@ a.cta1 {
 } 
 /*//// from page 2 */
 
+/*section#case-studies {
+	why can't i set the background color??
+	background-color: #fcf1e5; 
+}
+
+.cs-1{
+	
+}
+
+
+img.case1 {
+	width: 25%;
+	margin: 0em;
+}
+
+.cs {
+	text-align: left;
+}*/
+
+
 #clients {
 	width: 100%;
 	background-color: #433D3C;
-	padding: .5em;
+	/*padding: .5em;*/
 }
 
 img.clients {
@@ -408,6 +429,34 @@ img.clients {
 	height: 7em;
 	margin: 1.7em;
 }
+
+
+#contact {
+	/*background: #F0B568;*/
+	background-image: url("../images/contact.jpg");
+	max-width: 100%;
+}
+
+.contact-wrapper {
+	height: 40em;
+}
+
+/*.contact-img {
+	max-width: 100%;
+
+}*/
+.contact-content {
+}
+
+.contact {
+	color: #FDF6EF;
+	/*color: #F0B568;*/
+	font-weight: 600;
+	margin-top: 0; 
+	text-align: left;
+	/*padding-left: 1em;*/
+}
+
 
 /*#contact {
 	background: #FDF6EF;
@@ -424,7 +473,7 @@ img.clients {
 }*/
 
 footer {
-	background: #F0B568;
+	/*background: #F0B568;*/
 
 }
 
