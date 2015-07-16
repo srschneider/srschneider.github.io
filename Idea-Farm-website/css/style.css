@@ -22,18 +22,22 @@ header {
 
 .logo {
 	float: left;
-	padding: .2em;
-	margin-top: .2em;
-	margin-left: 7em;
+	padding: .75em 1em;
+	/*padding-bottom: 1em;*/
+	margin: .4em 0 0 7em;
 
 }
 
 nav {
 	/*font-family: 'Source Sans Pro', sans-serif;*/
 	font-family: 'Roboto Slab', serif;
-	float: right;
+	/*float: right;*/
 	color: #FDF6EF;
-	position: absolute;
+	position: static;
+	padding: 5em 0 1em 0;
+	margin: 0 15em 0 0;
+	float: left;
+	text-align: center;
 	right: 60%;
 	top: 65%;
 	/*this is stretching over the logo, how do i fix this?*/
@@ -59,8 +63,7 @@ a:hover {
 }
 
 #welcome-about {
-	display: block;
-	font-family: 'Source Sans Pro', sans-serif;
+	/*display: block;*/
 	padding: 2em, 6em;
 	margin: 0;
 	background-image: url("../images/TL_17-s.png");
@@ -70,19 +73,10 @@ a:hover {
 	
 }
 
-.welcome {
-	width: 70%;
-	text-align: left;
-	/*margin: auto;*/
-	margin: 3.5em 3em 2em 3em;
-	padding: 2.5em 0 5em 0;
-	
-}
-
 .splash-overlay {
 	width: 100%;
 	background: rgba(159,127,80, 0.35);
-	padding: 4em;
+	/*padding: 4em 0 0 8em;*/
 	/*position: absolute;*/
 	/*right: 0%;*/
 
@@ -92,6 +86,13 @@ position correctly ???????????????*/
 
 }
 
+.welcome {
+	display: block;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: left;
+	padding: 6em 14em 5em 8em;
+
+}
 
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -120,10 +121,11 @@ p.splash {
 	font-size: 22px;
 	font-weight: 400;
 	line-height: 1.4em;
-	margin-top: 1em;
+	margin-top: .5em;
 	padding: 0 12em 0 0;
 	/*padding: .2em -.5em;*/
 	color: #FDF6EF;
+	text-align: left;
 	/*color: #808080;*/
 
 }
@@ -139,7 +141,7 @@ p.splash {
 }
 
 
-h2 {
+h2.headings {
 	/*font-family: 'Roboto Slab', sans-serif;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	/*font-size: 255%;*/
@@ -222,9 +224,9 @@ h4 {
 }
 
 .tiers {
-	padding: 1em 3em;
+	/*padding: 1em 3em;*/
 	max-width: 1200px;
-	margin: auto;
+	margin: 2.2em 5em;
 	display: block;
 	/*margin-bottom: 1.4em;*/
 }
@@ -237,8 +239,8 @@ h4 {
 	/*display: block;*/
 	width: 33.33%;
 	padding: 0em 4em;
-	margin-top: 2em;
-	margin-bottom: 6em;
+/*	margin-top: 2em;
+	margin-bottom: 6em;*/
 	/*margin-top: 1em;*/
 	color: #433D3C;
 	float: left;
@@ -250,15 +252,16 @@ p {
 	/*font-size: 100%;*/
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 1.45em;
+	line-height: 1.5em;
 	margin-top: 1em;
+	text-align: center;
 	/*padding: .2em -.5em;*/
 	color: #808080;
 }
 
 #activity-images{
 	display: block;
-	max-width: 1430px;
+	max-width: 100%;
 	margin: 0;
 	/*background: rgba(159,127,80, 0.35);*/
 
@@ -393,30 +396,7 @@ a.cta1 {
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #F0B568;
-
-
 } 
-/*//// from page 2 */
-
-/*section#case-studies {
-	why can't i set the background color??
-	background-color: #fcf1e5; 
-}
-
-.cs-1{
-	
-}
-
-
-img.case1 {
-	width: 25%;
-	margin: 0em;
-}
-
-.cs {
-	text-align: left;
-}*/
-
 
 #clients {
 	width: 100%;
@@ -433,44 +413,49 @@ img.clients {
 
 #contact {
 	/*background: #F0B568;*/
+	display: block;
 	background-image: url("../images/contact.jpg");
 	max-width: 100%;
+	background-size: cover;
 }
 
 .contact-wrapper {
 	height: 40em;
+	display: block;
+	width: 100%;
+	background: rgba(159,127,80, 0.35);
+	/*padding: 4em;*/
 }
 
-/*.contact-img {
-	max-width: 100%;
-
-}*/
 .contact-content {
+	display: block;
+	padding: 8em 9em 0 43em;
 }
 
-.contact {
+h2.contact {
 	color: #FDF6EF;
-	/*color: #F0B568;*/
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	/*margin: 3em 0em 0 15em;*/
+	/*width: 50%;*/
 	font-weight: 600;
-	margin-top: 0; 
 	text-align: left;
-	/*padding-left: 1em;*/
+	float: left;
+	margin: 0;
 }
 
+.with-you {
+	color: #FDF6EF;
+	text-align: left;
+	float: left;
+	margin: .3em 0;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.4em;
+	font-family: 'Roboto Slab', serif;
+}
 
-/*#contact {
-	background: #FDF6EF;
-	padding: 4em;
-
-}*/
-/*#contact {
-
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
-	font-weight: 300;
-	text-transform: uppercase;
-
-}*/
 
 footer {
 	/*background: #F0B568;*/
@@ -502,174 +487,78 @@ p.copyright {
 	clear: both;
 }
 
-@media only screen and (max-width: 800px) {
-	.logo {
-		/*float: none;*/
-		margin-left: 5em;
-		width: 12%;
-	}
+@media only screen and (max-width: 1428px) {
 
-	nav {
-		margin-left: 17em;
-	}
-
-	a { 
-	padding: 0em;
-
-	}
-
-	.splash-overlay {
-		padding: .5em 2em;
-		/*margin: auto;*/
-	}
-
-	/*.welcome-about {
-		max-width: 800px;
-	}*/
-
-	.welcome {
-		/*text-align: center;*/
-		font-size: .7em;
-		padding: 0;
-		margin: 2em 0em 0em 0;
-	}
-
-	.splash {
-		text-align: left;
-		font-size: .5em;
-		padding: 5em;
-	}
+.welcome {
+	padding: 4em 14em 5em 8em;
+}
 
 }
 
-@media only screen and (max-width: 480px) {
-	header {
-		margin: 0;
-		padding-bottom: 1.75em;
-		position: relative;
-	}
-	.logo {
-		float: none;
-		margin: 0;
-		width: 20%;
+@media only screen and (max-width: 1340px) {
 
-	}
-
-	nav {
-		/*float: left;*/
-		font-size: .8em;
-		/*margin: auto;*/
-		padding: .5em;
-		text-align: left;
-		/*position: absolute;*/
-		/*width: 400px;*/
-	}
-
-	/*.nav-wrapper {
-		padding: 1em;
-		margin: auto;
-	}*/
-
-	div.splash-overlay {
-		padding: 1em 0em;
-		/*margin: auto;*/
-
-	}
-
-	#welcome-about {
-		max-width: 100%;
-		background-position: right;
-
-	}
-
-	h1 {
-		font-size: 4em;
-		font-weight: 600;
-		padding: 0em;
-		/*padding: .5em 1em;*/
-		text-align: center;
-		/*max-width: 100%*/
-
-	}
-
-	.welcome {
-		margin: 2em auto;
-		/*padding: 5em 0;*/
-		/*margin: 0.2em 5em;*/
-		float: none;
-		max-width: 100%
-		
-	}
-
-	p.splash {
-		text-align: center;
-		/*padding: none;*/
-		font-size: 1.25em;
-		font-weight: 400;
-		padding: 1em 0;
-		margin: 0;
-
-	}
-
-	#our-mission {
-		padding: 1.5em 3em;
-
-
-	} 
-
-	h2 {
-		font-size: 2em;
-	}
-
-	p.misssion {
-		font-size: 1em;
-		padding: 0em 1.5em;
-		margin: 0 0 2.5em 0;
-	}
-
-	.tiers {
-		padding: .7em 2em;
-		margin: 0;
-	}
-
-	.cultivate {
-		padding: 0;
-		margin: .3em 0 3em 0;
-		width: 100%;
-		float: none;
-	}
-
-	h4 {
-		font-size: .9em;
-	}
-
-	p.cultivate-p {
-		font-size: .9em;
-	}
-
-	#activity-image-400, #activity-image-300, #activity-image-200  {
-		width: 33.33%;
-	}
-	.activity {
-		width: 0;
-	}
-
-	#approach {
-		padding: 2em 1.5em 3em;
-
-		}
-
-	h2 {
-		line-height: 1em;
-		margin-bottom: .2em;
-		padding: 0em 1em;
-	}
-	.approach-wrapper {
-		display: none;
-	}
-	img.social {
-		width: 55%;
-	}
+.welcome {
+	padding: 4em 9em 5em 8em;
 }
 
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	/*font-size: 480%;*/
+	font-size: 73px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: .9em;
+	color: #FDF6EF;
+	/*letter-spacing: .003em;*/
+}
 
+p.splash {
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-family: 'Roboto Slab', serif;
+	/*font-size: 145%;*/
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.4em;
+	margin-top: .5em;
+	padding: 0 18em 0 0;
+	/*padding: .2em -.5em;*/
+	color: #FDF6EF;
+	text-align: left;
+	/*color: #808080;*/
+
+}
+
+}
+
+@media only screen and (max-width: 1260px) {
+
+.welcome {
+	padding: 4em 9em 5em 8em;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	/*font-size: 480%;*/
+	font-size: 70px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: .9em;
+	color: #FDF6EF;
+	/*letter-spacing: .003em;*/
+}
+
+p.splash {
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-family: 'Roboto Slab', serif;
+	/*font-size: 145%;*/
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.4em;
+	margin-top: .5em;
+	padding: 0 16em 0 0;
+	/*padding: .2em -.5em;*/
+	color: #FDF6EF;
+	text-align: left;
+	/*color: #808080;*/
+
+}
