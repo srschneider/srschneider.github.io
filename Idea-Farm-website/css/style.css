@@ -21,6 +21,18 @@ header {
 	width:100%;
 }
 
+.intro-wrapper {
+	height: 37em;
+	display: block;
+	width: 100%;
+}
+
+.splash-overlay {
+	width: 100%;
+	background: rgba(159,127,80, 0.35);
+	height: 473px;
+}
+
 .logo {
 	float: left;
 	padding: .75em 1em;
@@ -40,6 +52,7 @@ nav {
 	right: 60%;
 	top: 65%;
 	letter-spacing: .03em;
+	font-size: 16px;
 }
 
 .nav-wrapper {
@@ -69,10 +82,7 @@ a:hover {
 	/*height: 37em;	*/
 }
 
-.splash-overlay {
-	width: 100%;
-	background: rgba(159,127,80, 0.35);
-}
+
 
 .welcome {
 	display: block;
@@ -137,7 +147,7 @@ h2.headings {
 	line-height: 1.4em;
 	margin: auto;
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.4em;
+	font-size: 22px;
 	font-weight: 400;
 	text-align: center;
 }
@@ -300,13 +310,13 @@ p.right-column2 {
 	margin: 5em 0em;
 }
 
-a.cta1 {
-	color: #FDF6EF;
-	padding: .8em 3em;
-	background-color: #F0B568;
-	text-decoration: none;
-	border-radius: 2px;
-}
+		a.cta1 {
+			color: #FDF6EF;
+			padding: .8em 3em;
+			background-color: #F0B568;
+			text-decoration: none;
+			border-radius: 2px;
+		}
 
 		.cta1:hover {
 			background-color: #A82033;
@@ -354,7 +364,6 @@ img.clients {
 h2.contact {
 	color: #FDF6EF;
 	font-size: 48px;
-	font-weight: 700;
 	text-transform: uppercase;
 	font-weight: 600;
 	text-align: left;
@@ -373,8 +382,6 @@ h2.contact {
 	font-family: 'Roboto Slab', serif;
 }
 
-		footer {
-		}
 
 img.social {
 	padding-top: 3em;
@@ -386,6 +393,7 @@ img.social {
 	font-size: 10px;
 	color: #808080;
 	padding: 2em;
+	text-align: center;
 }
 
 
@@ -397,1097 +405,1092 @@ img.social {
 	clear: both;
 }
 
-@media only screen and (max-width: 1350px), (min-width: ) {
-
-#welcome-about {
-	padding: 2em, 6em;
-	margin: 0;
-	max-width: 100%;
-	height: 32em;
-}
-
-.welcome {
-	padding: 6em 21em 8.75em 8em;
-}
-
-h1 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 66px;
-	font-weight: 600;
-	text-transform: uppercase;
-	line-height: .9em;
-	color: #FDF6EF;
-
-}
-
-p.splash {
-	font-family: 'Roboto Slab', serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 1.4em;
-	margin-top: .5em;
-	padding: 0 16em 0 0;
-	color: #FDF6EF;
-	text-align: left;
-
-}
-
-.misssion {
-	color: #433D3C;
-	/*color: #731827;*/
-	/*line-height: .5em;*/
-	padding: .3em 14em;
-	line-height: 1.4em;
-	margin: auto;
-	font-family: 'Roboto Slab', serif;
-	font-size: 1.15em;
-	font-weight: 400;
-}
-
-.tiers {
-	/*max-width: 1200px;*/
-	max-width: 88%;
-	/*margin: 2.2em 2em;*/
-	display: block;
-}
-
-.cultivate-icon {
-	width: 45%;
-}
-
-.cultivate {
-	width: 33.33%;
-	padding: 0em 3em;
-	color: #433D3C;
-	float: left;
-}
-
-h4 {
-	font-family: 'Roboto Slab', serif;
-	/*font-family: 'Source Sans Pro', sans-serif;*/
-	font-weight: 500;
-	/*font-size: 105%;*/
-	font-size: 16px;
-	/*color: #A82033;*/
-	color: #433D3C;
-	/*color: #EFB46E;*/
-	margin: .1em -1em;
-
-}
-
-p {	
-	font-family: 'Source Sans Pro', sans-serif;
-	/*font-family: 'Roboto Slab', serif;*/
-	/*font-size: 100%;*/
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.5em;
-	margin-top: 1em;
-	text-align: center;
-	/*padding: .2em -.5em;*/
-	color: #808080;
-}
-
-
-.contact-wrapper {
-	height: 38em;
-	display: block;
-	width: 100%;
-	background: rgba(159,127,80, 0.35);
-	/*padding: 4em;*/
-}
-
-.contact-content {
-	display: block;
-	padding: 7em 4em 0 40em;
-}
-
-.with-you {
-	color: #FDF6EF;
-	text-align: left;
-	float: left;
-	margin: .3em 0;
-	font-size: 19px;
-	font-weight: 400;
-	line-height: 1.4em;
-	font-family: 'Roboto Slab', serif;
-	padding: 0 7em 0 0;
-}
-
-}
-
-
-@media only screen and (max-width: 1275px) {
-
-header {
-	position: relative;
-	background: rgba(159,127,80, 0.35);
-	border-bottom: 1px rgba(255,255,255, 0.2) solid;
-}
+@media only screen and (max-width: 1300px) and (min-width: 1181px) {
 
 .logo {
-	float: left;
 	padding: .75em 1em;
-	margin: .4em 0 0 7em;
-	width: 9.3%;
-}
-
-nav {
-	/*font-family: 'Source Sans Pro', sans-serif;*/
-	font-family: 'Roboto Slab', serif;
-	/*float: right;*/
-	color: #FDF6EF;
-	position: static;
-	padding: 4.7em 0 0.5em 0;
-	margin: 0 15em 0 0;
-	float: left;
-	text-align: center;
-	right: 60%;
-	top: 65%;
-	font-size: .95em;
-	/*this is stretching over the logo, how do i fix this?*/
-}
-
-.nav-wrapper {
-	display: block;
-}
-
-a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #FDF6EF;
-	padding: 1em;
-}
-
-#welcome-about {
-	/*display: block;*/
-	padding: 2em, 6em;
-	margin: 0;
-	max-width: 100%;
-	height: 30em;
-	/*what is going on here? why can't I get the height of the image to work/change?*/
-}
-
-.welcome {
-	padding: 6em 18em 10em 8em;
-}
-
-h1 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 62px;
-	font-weight: 600;
-	text-transform: uppercase;
-	line-height: .9em;
-	color: #FDF6EF;
-
-}
-
-p.splash {
-	font-family: 'Roboto Slab', serif;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 1.4em;
-	margin-top: .5em;
-	padding: 0 16em 0 0;
-	color: #FDF6EF;
-	text-align: left;
-
-}
-
-.misssion {
-	color: #433D3C;
-	/*color: #731827;*/
-	/*line-height: .5em;*/
-	padding: .3em 10em;
-	line-height: 1.4em;
-	margin: auto;
-	font-family: 'Roboto Slab', serif;
-	font-size: 1.15em;
-	font-weight: 400;
-}
-
-.tiers {
-	/*padding: 1em 3em;*/
-	max-width: 1200px;
-	margin: 2.2em 2em;
-	display: block;
-	/*margin-bottom: 1.4em;*/
-}
-
-.cultivate-icon {
-	width: 40%;
-}
-
-.cultivate {
-	width: 33.33%;
-	padding: 0em 2.5em;
-	color: #433D3C;
-	float: left;
-}
-
-h4 {
-	font-family: 'Roboto Slab', serif;
-	font-weight: 500;
-	font-size: 16px;
-	color: #433D3C;
-	margin: .1em -1em;
-}
-
-p {	
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.5em;
-	margin-top: 1em;
-	text-align: center;
-	/*padding: .2em -.5em;*/
-	color: #808080;
-}
-
-.contact-wrapper {
-	height: 36em;
-	display: block;
-	width: 100%;
-	background: rgba(159,127,80, 0.35);
-	/*padding: 4em;*/
-}
-
-.contact-content {
-	display: block;
-	padding: 6em 2em 0 38em;
-}
-
-.with-you {
-	color: #FDF6EF;
-	text-align: left;
-	float: left;
-	margin: .3em 0;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 1.4em;
-	font-family: 'Roboto Slab', serif;
-	padding: 0 7.5em 0 0;
-}
-
-}
-
-@media only screen and (max-width: 1180px) {
-
-.logo {
-	float: left;
-	padding: .75em 1em;
-	margin: .4em 0 0 7em;
 	width: 9%;
 }
 
 nav {
-	/*font-family: 'Source Sans Pro', sans-serif;*/
-	font-family: 'Roboto Slab', serif;
-	/*float: right;*/
-	color: #FDF6EF;
-	position: static;
-	padding: 4.7em 0 0.5em 0;
-	margin: 0 15em 0 0;
-	float: left;
-	text-align: center;
-	right: 60%;
-	top: 65%;
-	font-size: .9em;
-	/*this is stretching over the logo, how do i fix this?*/
+	padding: 4.5em 0 0 0;
 }
 
-.nav-wrapper {
-	display: block;
+.intro-wrapper {
+	height: 31em;
 }
-
-a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #FDF6EF;
-	padding: 1em;
-}
-
-#welcome-about {
-	/*display: block;*/
-	padding: 2em, 6em;
-	margin: 0;
-	max-width: 100%;
-	height: 26em;
-	/*width: 1430px;*/
-	
-}
-
 .welcome {
-	padding: 5em 16em 6.5em 8em;
+	padding: 7em 9em 10em 8em;
 }
 
 h1 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 62px;
-	font-weight: 600;
-	text-transform: uppercase;
-	line-height: .9em;
-	color: #FDF6EF;
-
-}
-
-h2.headings {
-	/*font-family: 'Roboto Slab', sans-serif;*/
-	font-family: 'Source Sans Pro', sans-serif;
-	/*font-size: 255%;*/
-	font-size: 40px;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-top: .5em;
-	margin-bottom: .1em;
-	/*color: #731827;*/
-	color: #A82033;
-
+	font-size: 64px;
 }
 
 p.splash {
-	font-family: 'Roboto Slab', serif;
-	font-size: 17px;
-	font-weight: 400;
+	font-size: 19.5px;
 	line-height: 1.4em;
-	margin-top: .5em;
-	padding: 0 15em 0 0;
-	color: #FDF6EF;
-	text-align: left;
+}
 
+h2.headings {
+	font-size: 2.75em;
 }
 
 .misssion {
-	color: #433D3C;
-	/*color: #731827;*/
-	/*line-height: .5em;*/
-	padding: .3em 10em;
-	line-height: 1.4em;
-	margin: auto;
-	font-family: 'Roboto Slab', serif;
-	font-size: 1em;
-	font-weight: 400;
+	font-size: 1.16em; 
 }
 
 .tiers {
-	/*padding: 1em 3em;*/
-	max-width: 1200px;
-	margin: 2.2em 2em;
-	display: block;
-	/*margin-bottom: 1.4em;*/
+	margin: 4em 4.5em 5em;
+}
+
+.cultivate-icon {
+	width: 32%;
+}
+
+.cultivate {
+	padding: 0em 2em;
 }
 
 h3 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: #EFB46E;
-	margin-top: .5em;
-
+	font-size: 21px;
 }
 
-h4 {
-	font-family: 'Roboto Slab', serif;
-	font-weight: 500;
-	font-size: 15px;
-	color: #433D3C;
-	margin: .1em 0;
 
+h4 {
+	font-size: 16px;
 }
 
 p {	
-	font-family: 'Source Sans Pro', sans-serif;
-	/*font-family: 'Roboto Slab', serif;*/
-	/*font-size: 100%;*/
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 1.5em;
-	letter-spacing: 0.01em;
-	margin-top: 1em;
-	text-align: center;
-	/*padding: .2em -.5em;*/
-	color: #808080;
-}
-
-.approach-wrapper {
-	padding: 2em 19em 2em;
+	font-size: 16px;
 }
 
 .span-page2 {
-	font-size: 122%;
+	font-size: 126%;
 }
 
-/*#clients {
-	width: 100%;
-	background-color: #433D3C;
-	/*padding: .5em;*/
-
 img.clients {
-	/*display: inline-block;*/
 	height: 6em;
-	margin: 1.7em;
+	margin: 1.6em;
 }
 
 .contact-wrapper {
-	height: 33em;
-	display: block;
-	width: 100%;
-	background: rgba(159,127,80, 0.35);
-	/*padding: 4em;*/
+	height: 38em;
 }
 
 .contact-content {
-	display: block;
-	padding: 6em 2em 0 34em;
+	padding: 7em 1em 0 39em;
 }
 
 h2.contact {
-	color: #FDF6EF;
-	font-size: 44px;
-	font-weight: 700;
-	text-transform: uppercase;
-	/*margin: 3em 0em 0 15em;*/
-	/*width: 50%;*/
-	font-weight: 600;
-	text-align: left;
-	float: left;
-	margin: 0;
+	font-size: 45px;
 }
 
 .with-you {
-	color: #FDF6EF;
-	text-align: left;
-	float: left;
-	margin: .3em 0;
-	font-size: 17px;
-	font-weight: 400;
-	line-height: 1.4em;
-	font-family: 'Roboto Slab', serif;
-	padding: 0 3.5em 0 0;
+	font-size: 18px;
+	padding: 0 6em 0 0;
 }
 
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1180px) and (min-width: 1110px) {
 
 .logo {
-	float: left;
-	padding: .75em 1em;
-	margin: .4em 0 0 6em;
-	width: 9.5%;
+	padding: .5em 1em;
+	width: 8.9%;
 }
 
 nav {
-	/*font-family: 'Source Sans Pro', sans-serif;*/
-	font-family: 'Roboto Slab', serif;
-	/*float: right;*/
-	color: #FDF6EF;
-	position: static;
-	padding: 4em 0 0.5em 0;
-	margin: 0 15em 0 0;
-	float: left;
-	text-align: center;
-	right: 60%;
-	top: 65%;
-	font-size: .9em;
-	/*this is stretching over the logo, how do i fix this?*/
-}
-
-.nav-wrapper {
-	display: block;
-}
-
-a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #FDF6EF;
-	padding: 1em;
-}
-
-#welcome-about {
-	/*display: block;*/
-	padding: 2em, 6em;
-	margin: 0;
-	max-width: 100%;
-	height: 26em;
-	/*width: 1430px;*/
-	
+	padding: 3.9em 0 0 0;
+	font-size: .95em;
 }
 
 .welcome {
-	padding: 5em 12em 7em 7em;
+	padding: 7em 9em 10em 8em;
 }
 
 h1 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 56px;
-	font-weight: 600;
-	text-transform: uppercase;
-	line-height: .9em;
-	color: #FDF6EF;
+	font-size: 62px;
+}
 
+p.splash {
+	font-size: 19px;
+	line-height: 1.4em;
+	padding: 0 17em 0 0;
+}
+
+.intro-wrapper {
+	height: 29em;
+}
+
+.splash-overlay {
+	height: 23.4em;
 }
 
 h2.headings {
-	/*font-family: 'Roboto Slab', sans-serif;*/
-	font-family: 'Source Sans Pro', sans-serif;
-	/*font-size: 255%;*/
-	font-size: 37px;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-top: .5em;
-	margin-bottom: .1em;
-	/*color: #731827;*/
-	color: #A82033;
-
-}
-
-p.splash {
-	font-family: 'Roboto Slab', serif;
-	font-size: 17px;
-	font-weight: 400;
-	line-height: 1.4em;
-	margin-top: .5em;
-	padding: 0 10em 1em 0;
-	color: #FDF6EF;
-	text-align: left;
-
-}
-
-.cultivate-p {
-	font-size: 95%; 
-}
-
-.cultivate {
-	width: 33.33%;
-	padding: 0em 1.5em;
-	color: #433D3C;
-	float: left;
-}
-
-.cultivate-icon {
-	width: 38%;
-}
-
-h3 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: #EFB46E;
-	margin-top: .5em;
-
-}
-
-h4 {
-	font-family: 'Roboto Slab', serif;
-	font-weight: 500;
-	font-size: 13px;
-	color: #433D3C;
-	margin: .1em 0;
-	/*padding: 0 2em;*/
-}
-
-.approach-wrapper {
-	padding: 2em 16em 2em;
-}
-
-img.clients {
-	/*display: inline-block;*/
-	height: 6em;
-	margin: 1.4em;
-}
-
-.contact-wrapper {
-	height: 26em;
-	display: block;
-	width: 100%;
-	background: rgba(159,127,80, 0.35);
-	/*padding: 4em;*/
-	/*this is not being controlled the same as the other picture above - this seems like the correct way*/
-}
-
-.contact-content {
-	display: block;
-	padding: 5.5em 0em 0 30em;
-}
-
-h2.contact {
-	color: #FDF6EF;
-	font-size: 39px;
-	font-weight: 700;
-	text-transform: uppercase;
-	/*margin: 3em 0em 0 15em;*/
-	/*width: 50%;*/
-	font-weight: 600;
-	text-align: left;
-	float: left;
-	margin: 0;
-}
-
-.with-you {
-	color: #FDF6EF;
-	text-align: left;
-	float: left;
-	margin: .3em 0;
-	font-size: 17px;
-	font-weight: 400;
-	line-height: 1.4em;
-	font-family: 'Roboto Slab', serif;
-	padding: 0 5.5em 0 0;
-}
-
-
-}
-
-@media only screen and (max-width: 990px) {	
-
-#welcome-about {
-	/*display: block;*/
-	padding: 2em, 6em;
-	margin: 0;
-	max-width: 100%;
-	height: 24em;
-	/*width: 1430px;*/
-	/*this is not being controlled the same as the other picture below - this seems like the incorrect way*/
-	
-}
-
-.logo {
-	float: left;
-	padding: .75em .75em;
-	margin: .4em 0 0 5em;
-	width: 9.5%;
-}
-
-nav {
-	/*font-family: 'Source Sans Pro', sans-serif;*/
-	font-family: 'Roboto Slab', serif;
-	/*float: right;*/
-	color: #FDF6EF;
-	position: static;
-	padding: 4.4em 0 0.5em 0;
-	margin: 0 15em 0 0;
-	float: left;
-	text-align: center;
-	right: 60%;
-	top: 65%;
-	font-size: .85em;
-	font-weight: 400;
-}
-
-.nav-wrapper {
-	display: block;
-}
-
-p.splash {
-	font-family: 'Roboto Slab', serif;
-	font-size: 17px;
-	font-weight: 400;
-	line-height: 1.4em;
-	margin-top: .5em;
-	padding: 0 5em 0 0;
-	color: #FDF6EF;
-	text-align: left;
-
-}
-
-.welcome {
-	padding: 5em 16em 6.75em 6em;
+	font-size: 2.5em;
 }
 
 .misssion {
-	color: #433D3C;
-	/*color: #731827;*/
-	/*line-height: .5em;*/
-	padding: .3em 8em;
-	line-height: 1.4em;
-	margin: auto;
-	font-family: 'Roboto Slab', serif;
-	font-size: .95em;
-	font-weight: 400;
+	font-size: 1.1em; 
 }
 
 .tiers {
-	/*padding: 1em 3em;*/
-	max-width: 1200px;
-	margin: 2.2em 2em;
-	display: block;
-	/*margin-bottom: 1.4em;*/
-}
-
-.cultivate-p {
-	font-size: 90%; 
-}
-
-.cultivate-icon {
-	width: 36%;
+	margin: 4em auto 0em;
 }
 
 .cultivate {
-	width: 33.33%;
-	padding: 0em 1.5em;
-	color: #433D3C;
-	float: left;
+	width: 100%;
+	padding: 0em 14em 0 14em;
+	margin: 0em 0em 4em 0;
+}
+
+.cultivate-icon {
+	width: 10%;
+	margin: 0 1.5em 0 0em;
+}
+
+.top-cult {
+	margin: 0 2em 0 0em;
 }
 
 h3 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: #EFB46E;
-	margin-top: .5em;
-
+	font-size: 21px;
 }
 
-h4 {
-	font-family: 'Roboto Slab', serif;
-	font-weight: 500;
-	font-size: 15px;
-	color: #433D3C;
-	margin: .1em 0;
 
+h4 {
+	font-size: 16px;
 }
 
 p {	
-	font-family: 'Source Sans Pro', sans-serif;
-	/*font-family: 'Roboto Slab', serif;*/
-	/*font-size: 100%;*/
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 1.5em;
-	letter-spacing: 0.01em;
-	margin-top: 1em;
-	text-align: center;
-	/*padding: .2em -.5em;*/
-	color: #808080;
+	font-size: 16px;
 }
 
-.approach-wrapper {
-	padding: 2em 13em 2em;
-}
-
-.contact-wrapper {
-	height: 28em;
-	display: block;
-	width: 100%;
-	background: rgba(159,127,80, 0.35);
-	/*padding: 4em;*/
-	/*this is not being controlled the same as the other picture above - this seems like the correct way*/
-}
-
-.contact-content {
-	display: block;
-	padding: 5.5em 0em 0 29em;
-}
-
-h2.contact {
-	color: #FDF6EF;
-	font-size: 42px;
-	font-weight: 700;
-	text-transform: uppercase;
-	/*margin: 3em 0em 0 15em;*/
-	/*width: 50%;*/
-	font-weight: 600;
-	text-align: left;
-	float: left;
-	margin: 0;
-}
-
-.smaller {
-	display: none;
-}
-
-.with-you {
-	color: #FDF6EF;
-	text-align: left;
-	float: left;
-	margin: .3em 0;
-	font-size: 17px;
-	font-weight: 400;
-	line-height: 1.4em;
-	font-family: 'Roboto Slab', serif;
-	padding: 0 3.5em 0 0;
-}
-
-}
-
-@media only screen and (max-width: 940px) {		
-
-#welcome-about {
-	/*display: block;*/
-	padding: 2em, 6em;
-	margin: 0;
-	max-width: 100%;
-	height: 26em;
-	/*width: 1430px;*/
-	/*this is not being controlled the same as the other picture below - this seems like the incorrect way*/
-	
-}
-
-.logo {
-	float: left;
-	padding: .75em .75em;
-	margin: .4em 0 0 5em;
-	width: 9.5%;
-}
-
-nav {
-	/*font-family: 'Source Sans Pro', sans-serif;*/
-	font-family: 'Roboto Slab', serif;
-	/*float: right;*/
-	color: #FDF6EF;
-	position: static;
-	padding: 4.3em 0 0.5em 0;
-	margin: 0 15em 0 0;
-	float: left;
-	text-align: center;
-	right: 60%;
-	top: 65%;
-	font-size: .9em;
-	font-weight: 400;
-}
-
-
-.welcome {
-	padding: 5em 14em 7.5em 6em;
+.span-page2 {
+	font-size: 120%;
 }
 
 img.clients {
-	height: 5.75em;
-	margin: 1.4em;
-}
-
-.smaller {
-	display: none;
+	height: 7em;
+	margin: 1em;
+	padding: .4em;
 }
 
 .contact-wrapper {
-	height: 27em;
-	display: block;
-	width: 100%;
-	background: rgba(159,127,80, 0.35);
-	/*padding: 4em;*/
-	/*this is not being controlled the same as the other picture above - this seems like the correct way*/
+	height: 34em;
 }
 
 .contact-content {
-	display: block;
-	padding: 5.5em 0em 0 28em;
+	padding: 7em 8em 0 34em;
 }
 
 h2.contact {
-	color: #FDF6EF;
-	font-size: 40px;
-	font-weight: 700;
-	text-transform: uppercase;
-	/*margin: 3em 0em 0 15em;*/
-	/*width: 50%;*/
-	font-weight: 600;
-	text-align: left;
-	float: left;
-	margin: 0;
-}
-
-.with-you {
-	color: #FDF6EF;
-	text-align: left;
-	float: left;
-	margin: .3em 0;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.4em;
-	font-family: 'Roboto Slab', serif;
-	padding: 0 3.5em 0 0;
+	font-size: 42px;
 }
 
 }
 
-@media only screen and (max-width: 900px) {		
-
-#welcome-about {
-	/*display: block;*/
-	padding: 2em, 6em;
-	margin: 0;
-	max-width: 100%;
-	height: 26em;
-	/*width: 1430px;*/
-	/*this is not being controlled the same as the other picture below - this seems like the incorrect way*/
-	
-}
+@media only screen and (max-width: 1109px) and (min-width: 1000px) {
 
 .logo {
-	float: left;
-	padding: .7em .7em;
-	margin: .4em 0 0 4em;
-	width: 9.5%;
-}
-
-nav {
-	/*font-family: 'Source Sans Pro', sans-serif;*/
-	font-family: 'Roboto Slab', serif;
-	/*float: right;*/
-	color: #FDF6EF;
-	position: static;
-	padding: 4.25em 0 0.5em 0;
-	margin: 0 15em 0 0;
-	float: left;
-	text-align: center;
-	right: 60%;
-	top: 65%;
-	font-size: .85em;
-	font-weight: 400;
-}
-
-
-.welcome {
-	padding: 5em 14em 8em 5em;
-}	
-
-h2.contact {
-	color: #FDF6EF;
-	font-size: 37px;
-	font-weight: 700;
-	text-transform: uppercase;
-	/*margin: 3em 0em 0 15em;*/
-	/*width: 50%;*/
-	font-weight: 600;
-	text-align: left;
-	float: left;
-	margin: 0;
-}
-
-.with-you {
-	color: #FDF6EF;
-	text-align: left;
-	float: left;
-	margin: .3em 0;
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 1.4em;
-	font-family: 'Roboto Slab', serif;
-	padding: 0 3.5em 0 0;
-}
-}
-
-@media only screen and (max-width: 822px) {	
-
-#welcome-about {
-	/*display: block;*/
-	padding: 2em, 6em;
-	margin: 0;
-	max-width: 100%;
-	height: 26em;
-	/*width: 1430px;*/
-	/*this is not being controlled the same as the other picture below - this seems like the incorrect way*/
-	
-}
-
-.logo {
-	float: left;
-	padding: .7em .7em;
-	margin: .4em 0 0 4em;
+	padding: .5em 1em;
 	width: 9.75%;
 }
 
 nav {
-	/*font-family: 'Source Sans Pro', sans-serif;*/
-	font-family: 'Roboto Slab', serif;
-	/*float: right;*/
-	color: #FDF6EF;
-	position: static;
-	padding: 4.25em 0 0.5em 0;
-	margin: 0 15em 0 0;
-	float: left;
-	text-align: center;
-	right: 60%;
-	top: 65%;
-	font-size: .8em;
-	font-weight: 400;
+	padding: 3.8em 0 0 0;
+	font-size: .87em;
 }
 
 .welcome {
-	padding: 5em 10em 8em 5em;
+	padding: 7em 9em 10em 8em;
+}
+
+h1 {
+	font-size: 58px;
+}
+
+p.splash {
+	font-size: 18px;
+	line-height: 1.4em;
+	padding: 0 13em 0 0;
+}
+
+.intro-wrapper {
+	height: 29em;
+}
+.splash-overlay {
+	height: 24em;
+}
+
+h2.headings {
+	font-size: 2.3em;
+}
+
+#our-mission {
+	padding: 1.5em 2em;
+}
+
+.misssion {
+	font-size: 1em; 
 }
 
 .tiers {
-	/*padding: 1em 3em;*/
-	max-width: 1200px;
-	margin: 2.2em 1em;
-	display: block;
-	/*margin-bottom: 1.4em;*/
-}
-
-.cultivate-p {
-	font-size: 85%; 
-}
-
-.cultivate-icon {
-	width: 40%;
+	margin: 4em auto 0em;
 }
 
 .cultivate {
-	width: 33.33%;
-	padding: 0em 1.5em;
-	color: #433D3C;
-	float: left;
+	width: 100%;
+	padding: 0em 11em 0 14em;
+	margin: 0em 0em 4em 0;
+}
+
+.cultivate-icon {
+	width: 10%;
+	margin: 0 1.5em 0 0em;
+}
+
+.top-cult {
+	margin: 0 2em 0 0em;
 }
 
 h3 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: #EFB46E;
-	margin-top: .5em;
-
+	font-size: 21px;
 }
 
+
 h4 {
-	font-family: 'Roboto Slab', serif;
-	font-weight: 500;
-	font-size: 13px;
-	color: #433D3C;
-	margin: .1em 0;
+	font-size: 16px;
+}
+
+p {	
+	font-size: 16px;
+}
+
+#approach {
+	padding: 1.5em 0em .5em;
 }
 
 .approach-wrapper {
-	padding: 2em 10em 2em;
+	padding: 3em 15em 2em;
 }
 
+.span-page2 {
+	font-size: 118%;
+}
+
+img.clients {
+	height: 6.5em;
+	margin: 1em;
+	padding: .4em;
+}
+
+
 .contact-wrapper {
-	height: 28em;
-	display: block;
-	width: 100%;
-	background: rgba(159,127,80, 0.35);
-	/*padding: 4em;*/
-	/*this is not being controlled the same as the other picture above - this seems like the correct way*/
+	height: 32em;
 }
 
 .contact-content {
-	display: block;
-	padding: 5.5em 0em 0 29em;
+	padding: 7em 2em 0 32em;
 }
 
 h2.contact {
-	color: #FDF6EF;
-	font-size: 42px;
-	font-weight: 700;
-	text-transform: uppercase;
-	/*margin: 3em 0em 0 15em;*/
+	font-size: 40px;
+}
+
+.with-you {
+	font-size: 17px;
+	padding: 0 3em 0 0;
+}
+
+}
+
+@media only screen and (max-width: 999px) and (min-width: 850px) {
+
+.logo {
+	width: 11%;
+}
+
+nav {
+	padding: 4.5em 0 0 0;
+	font-size: .8em;
+}
+
+.welcome {
+	padding: 7em 0em 10em 8em;
+}
+
+h1 {
+	font-size: 58px;
+}
+
+p.splash {
+	font-size: 18px;
+	line-height: 1.4em;
+	padding: 0 13em 0 0;
+}
+
+.intro-wrapper {
+	height: 29em;
+}
+.splash-overlay {
+	height: 23.2em;
+}
+
+
+h2.headings {
+	font-size: 2em;
+}
+
+#our-mission {
+	padding: 2em 1em;
+}
+
+.misssion {
+	font-size: 1em; 
+}
+
+.tiers {
+	margin: 4em auto 1em;
+}
+
+.cultivate {
+	width: 100%;
+	padding: 0em 9em 0 14em;
+	margin: 0em 0em 3em 0;
+}
+
+.cultivate-icon {
+	width: 15%;
+	margin: 0 1.5em 0 0em;
+}
+
+.top-cult {
+	margin: 0 2em 0 0em;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+.approach-wrapper {
+	padding: 3em 9em 2em;
+}
+
+.span-page2 {
+	font-size: 105%;
+}
+
+img.clients {
+	height: 6.5em;
+	margin: 1em;
+	padding: .4em;
+}
+
+img.smaller {
+	width: 0em;
+	display: none;
+}
+
+.contact-wrapper {
+	height: 26em;
+}
+
+.contact-content {
+	padding: 5em 0em 0 26em;
+}
+
+h2.contact {
+	font-size: 36px;
+}
+
+.with-you {
+	font-size: 16px;
+	padding: 0 3em 0 0;
+}
+
+}
+
+@media only screen and (max-width: 849px) and (min-width: 700px) {
+
+.logo {
+	width: 13%;
+	margin: .4em 0 0 3em;
+}
+
+nav {
+	padding: 4.5em 0 0 0;
+	font-size: .8em;
+}
+
+.intro-wrapper {
+	height: 25em;
+}
+.splash-overlay {
+	height: 23.2em;
+}
+
+.welcome {
+	padding: 5em 0em 10em 4em;
+}
+
+h1 {
+	font-size: 47px;
+}
+
+p.splash {
+	font-size: 16px;
+	line-height: 1.4em;
+	padding: 0 12em 0 0;
+}
+
+h2.headings {
+	font-size: 2.2em;
+}
+
+#our-mission {
+	padding: 2em 1em;
+}
+
+.misssion {
+	font-size: 1em;
+	padding: .3em 6em; 
+}
+
+.tiers {
+	margin: 4em auto 1em;
+}
+
+.cultivate {
+	width: 100%;
+	padding: 0em 5em 0 8em;
+	margin: 0em 0em 3em 0;
+}
+
+.cultivate-icon {
+	width: 15%;
+	margin: 0 1.5em 0 0em;
+}
+
+.top-cult {
+	margin: 0 2em 0 0em;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+.approach-wrapper {
+	padding: 3em 6em 2em;
+}
+
+.span-page2 {
+	font-size: 102%;
+}
+
+
+img.clients {
+	height: 6.1em;
+	margin: 1em;
+	padding: .4em;
+}
+
+img.smaller {
+	width: 0em;
+	display: none;
+}
+
+.contact-wrapper {
+	height: 20em;
+}
+
+.contact-content {
+	padding: 4.5em 0em 0 20.5em;
+}
+
+h2.contact {
+	font-size: 30px;
+}
+
+.with-you {
+	font-size: 15px;
+	padding: 0 1em 0 0;
+}
+
+}
+
+@media only screen and (max-width: 699px) and (min-width: 600px) {
+
+.logo {
+	position: absolute;
+	padding: 0em;
+	margin: 0.8em -2em;
+	width: 10%;
+}
+
+/*nav {
+	padding: 6em 0px .4em 13em;
+	margin: 0 auto;
+	font-size: .9em;
+}*/
+
+nav {
+  position: static;
+  padding: 6em 0 .4em 0;
+  margin: 0em auto;
+  float: none;
+  font-size: 14px;
+}
+
+.intro-wrapper {
+	height: 22em;
+}
+.splash-overlay {
+	height: 15.3em;
+}
+
+.welcome {
+	padding: 3em 0em;
+	/*margin: auto;*/
+	text-align: center;
+}
+
+h1 {
+	font-size: 47px;
+	text-align: center;
+}
+
+p.splash {
+	font-size: 16px;
+	line-height: 1.4em;
+	padding: 0em;
+	margin: .5em 6em;
+	text-align: center;
+}
+
+h2.headings {
+	font-size: 2.2em;
+}
+
+#our-mission {
+	padding: 2em 0em;
+}
+
+.misssion {
+	font-size: 1em;
+	padding: .3em 5em; 
+}
+
+.tiers {
+	margin: 4em auto 1em;
+}
+
+.cultivate {
+	width: 100%;
+	padding: 0em 5em 0 8em;
+	margin: 0em 0em 3em 0;
+}
+
+.cultivate-icon {
+	width: 19%;
+	margin: 0 1.5em 0 0em;
+}
+
+.top-cult {
+	margin: 0 2em 0 0em;
+}
+
+.activity {
+	width: 25%;
+	margin: auto;
+}
+
+.small {
+	width: 0;
+	display: none;
+}
+
+.approach-wrapper {
+	padding: 0em 5em;
+	margin: 0em auto 4em;
+	/*border-style: none;*/
+}
+
+#left-column {
+	padding: 0em 1em 0 0em;
+	font-size: 90%;
+	border-right: 0;
+	width: 50%;
+}
+
+.leaves {
+	width: 25%;
+	margin-bottom: 0em;
+}
+
+.span-page2 {
+	margin: 1em 8em 0 0;
+	font-size: 102%
+}
+
+#right-column {
+	padding: 0em 0em 0 1em;
+	font-size: 90%;
 	/*width: 50%;*/
-	font-weight: 600;
+}
+
+p.left-column {
 	text-align: left;
-	float: left;
-	margin: 0;
+	line-height: 1.2em;
+	margin: 2.5em 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+p.left-column2 {
+	text-align: left;
+	line-height: 1.2em;
+	margin: 4.5em 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+p.right-column {
+	margin: 10em 0em 0 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+p.right-column2 {
+	margin: 4em 0em 0 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+img.clients {
+	height: 6em;
+	margin: 1em;
+	padding: .4em;
+}
+
+img.smaller {
+	width: 0em;
+	display: none;
+}
+
+img.smaller2 {
+	width: 0em;
+	display: none;
+}
+
+.contact-wrapper {
+	height: 17em;
+}
+
+.contact-content {
+	padding: 3em 0em 0 17.5em;
+}
+
+h2.contact {
+	font-size: 26px;
+}
+
+.with-you {
+	font-size: 13px;
+	padding: 0 2em 0 0;
+}
+
+}
+
+@media only screen and (max-width: 599px) and (min-width: 490px) {
+
+.logo {
+	position: absolute;
+	padding: 0em;
+	margin: 0.8em -2em;
+	width: 11%;
+}
+
+nav {
+  position: static;
+  padding: 6em 0 .4em 0;
+  margin: 0em auto;
+  float: none;
+  font-size: 14px;
+}
+
+.intro-wrapper {
+	height: 17.9em;
+}
+.splash-overlay {
+	height: 12.3em;
+}
+
+.welcome {
+	padding: 2.25em 0em;
+	/*margin: auto;*/
+	text-align: center;
+}
+
+h1 {
+	font-size: 37px;
+	text-align: center;
+	/*padding: 2em 1.4em;*/
+}
+
+p.splash {
+	font-size: 14px;
+	line-height: 1.4em;
+	padding: 0em;
+	margin: .5em 3em;
+	text-align: center;
+}
+
+#our-mission {
+	padding: 2em 0em;
+}
+
+h2.headings {
+	font-size: 1.85em;
+}
+
+.misssion {
+	font-size: .9em;
+	padding: .3em 3em; 
+}
+
+.tiers {
+	margin: 2em auto 1em;
+}
+
+.cultivate {
+	width: 100%;
+	padding: 0em 5em 0 8em;
+	margin: 0em 0em 3em 0;
+}
+
+.cultivate-icon {
+	width: 25%;
+	margin: 0 1.5em 0 0em;
+}
+
+.top-cult {
+	margin: 0 2em 0 0em;
+}
+
+h3 {
+	font-size: 19px;
 }
 
 
+h4 {
+	font-size: 15px;
+}
 
+p {	
+	font-size: 14px;
+}
+
+.activity {
+	width: 25%;
+	margin: auto;
+}
+
+.small {
+	width: 0;
+	display: none;
+}
+
+.approach-wrapper {
+	padding: 0em 5em;
+	margin: 0em auto 4em;
+	/*border-style: none;*/
+}
+
+#left-column {
+	padding: 0em 1em 0 0em;
+	font-size: 90%;
+	border-right: 0;
+	width: 50%;
+}
+
+.leaves {
+	width: 25%;
+	margin-bottom: 0em;
+}
+
+.span-page2 {
+	margin: 1em 8em 0 0;
+	font-size: 102%
+}
+
+#right-column {
+	padding: 0em 0em 0 1em;
+	font-size: 90%;
+	/*width: 50%;*/
+}
+
+p.left-column {
+	text-align: left;
+	line-height: 1.2em;
+	margin: 2.5em 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+p.left-column2 {
+	text-align: left;
+	line-height: 1.2em;
+	margin: 4.5em 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+p.right-column {
+	margin: 10em 0em 0 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+p.right-column2 {
+	margin: 4em 0em 0 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+img.clients {
+	height: 7em;
+	margin: 1.5em 2em;
+	padding: .3em;
+}
+
+img.smaller {
+	width: 0em;
+	display: none;
+}
+
+img.smaller2 {
+	width: 0em;
+	display: none;
+}
+
+.contact-wrapper {
+	height: 14em;
+}
+
+.contact-content {
+	padding: 3em 0em 0 16.5em;
+}
+
+h2.contact {
+	font-size: 22px;
+}
+
+.with-you {
+	font-size: 13px;
+	padding: 0 2em 0 0;
+}
 
 }
 
+@media only screen and (max-width: 489px) and (min-width: 390px) {
 
+.logo {
+	position: absolute;
+	padding: 0em;
+	margin: 0.8em -2em;
+	width: 15%;
+}
+
+nav {
+  position: static;
+  padding: 6em 0 .4em 0;
+  margin: 0em auto;
+  float: none;
+  font-size: 14px;
+}
+
+.intro-wrapper {
+	background-color: #f3f3f3;
+	height: 25em;
+}
+
+.splash-overlay {
+	height: 18.4em;
+}
+
+span {
+	color: #EFB46E;
+}
+
+.welcome {
+	padding: 3em 0em;
+	/*margin: auto;*/
+	text-align: center;
+	padding: 2em 1.4em;
+}
+
+h1 {
+	font-size: 47px;
+	text-align: center;
+}
+
+p.splash {
+	font-size: 16px;
+	line-height: 1.4em;
+	padding: 0em;
+	margin: .5em 3em;
+	text-align: center;
+}
+
+h2.headings {
+	font-size: 2.1em;
+	padding: 0em 2em;
+	line-height: 1em;
+}
+
+#our-mission {
+	padding: 2em 0em;
+}
+
+.misssion {
+	font-size: .9em;
+	padding: .3em 3em; 
+}
+
+.tiers {
+	margin: 3em auto 1em;
+}
+
+.cultivate {
+	width: 100%;
+	padding: 0em 3em 0 5em;
+	margin: 0em 0em 3em 0;
+}
+
+.cultivate-icon {
+	width: 45%;
+	margin: 0 1.5em 0 0em;
+}
+
+.top-cult {
+	margin: 0 2em 0 0em;
+}
+
+.activity {
+	width: 25%;
+	margin: auto;
+}
+
+.small {
+	width: 0;
+	display: none;
+}
+
+.approach-wrapper {
+	padding: 0em 5em;
+	margin: 0em auto 4em;
+	/*border-style: none;*/
+}
+
+#left-column {
+	padding: 0em 1em 0 0em;
+	font-size: 90%;
+	border-right: 0;
+	width: 50%;
+}
+
+.leaves {
+	width: 25%;
+	margin-bottom: 0em;
+}
+
+.span-page2 {
+	margin: 1em 8em 0 0;
+	font-size: 102%
+}
+
+#right-column {
+	padding: 0em 0em 0 1em;
+	font-size: 90%;
+	/*width: 50%;*/
+}
+
+p.left-column {
+	text-align: left;
+	line-height: 1.2em;
+	margin: 2.5em 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+p.left-column2 {
+	text-align: left;
+	line-height: 1.2em;
+	margin: 4.5em 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+p.right-column {
+	margin: 10em 0em 0 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+p.right-column2 {
+	margin: 4em 0em 0 0em;
+	padding: 0em;
+	/*border-left: 2px solid #89C2B3;*/
+}
+
+img.clients {
+	height: 6em;
+	margin: 2em;
+	padding: 0em;
+}
+
+img.smaller {
+	width: 0em;
+	display: none;
+}
+
+img.smaller2 {
+	width: 0em;
+	display: none;
+}
+
+.contact-wrapper {
+	height: 13em;
+	background: rgba(159,127,80, 0.5);
+}
+
+.contact-content {
+	padding: 3em;
+	margin: 0 auto;
+}
+
+h2.contact {
+	/*display:block;*/
+	float: none;
+	font-size: 26px;
+	line-height: 1em;
+	padding: 0em;
+	margin: 0em;
+	text-align: center;
+}
+
+.with-you {
+	font-size: 13px;
+	padding: 0em;
+	text-align: center;
+}
+
+img.social {
+	padding-top: 2em;
+	width: 38%;
+}
+
+}
 
