@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	color: #433D3C;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	background-color: #FDF6EF;
+	font-size: 16px;
+}
+
+#intro {
+	display: block;
+	background-image: url("../images/flying-again-test.jpg");
+	max-width: 100%;
+	background-size: cover;
+}
+
+.intro-section-wrapper {
+	height: 40em;
+	display: block;
+	width: 100%;
+	/*background: rgba(159,127,80, 0.35);*/
+}
+
+header {
+	/*position: fixed;*/
+	/*background: #A45152;*/
+	border-bottom: 1px #433D3C solid;
+	/*background: #81A1B1;*/
+	/*background: rgba(129,161,177, 0.1);*/
+	/*background: rgba(159,127,80, 0.35);*/
+	/*border-bottom: 1px rgba(255,255,255, 0.2) solid;*/
+	/*width:100%;*/
+	padding: 1em 3em;
+	margin: 0em 10em;
+
+}
+/*.logo {
+	margin: .2em;
+	width: 28px;
+}
+*/
+nav {
+	position: static;
+	display: block;
+	font-family: 'roboto', sans-serif;
+	font-weight: 500;
+}
+
+a.nav {
+	text-decoration: none;
+	text-transform: uppercase;
+	/*color: #FDF6EF;*/
+	color: #A45152;
+	padding: 1em 1em;
+}
+
+a.nav:hover {
+	text-decoration: none;
+	color: #433D3C;
+}
+
+/*dropdown on medium with: web (IF, KC, C1), 
+mobile (Wallet, cats?), branding/campaign (BB, Cats, Nalgene, Fiesta, IF?), 
+illustration? (Teeth, small things Book, rocket-poster, snowy, cats & critters, bearhead, meowcakes!...) */
+
+
+#work {
+	width: 920px;
+	margin: auto;
+}
+
+.work-section-wrapper {
+	display: block;
+	margin: 2em 0em;
+	padding: 0.7em 0.5em;
+	border: 1px rgba(67,60,60, 0.1) solid;
+	/*float: left;*/
+	/*border-style: 1px #433D3C solid;*/
+}
+
+.thumb {
+	height: 14em;
+	margin: .3em .3em;
+	/*border: 1px rgba(67,60,60, 0.1) solid;*/
+}
+
+a.thumb-to-work {
+	color: #81A1B1;
+	/*z-index: 1;*/
+}
+
+a.thumb-to-work:hover {
+	/*text-decoration: none;*/
+	color: #000;
+}
+
+#about {
+
+}
+
+.about-section-wrapper {
+	border-top: 1px #433D3C solid;
+	padding: 1em 5em 3em 0em;
+	margin: 0em 10em;
+	border-bottom: 1px #433D3C solid;
+}
+
+.about-pic {
+	float: left;
+	margin: 2em 0em;
+}
+
+.about-me-description {
+	/*float: left;*/
+	margin: 0em 4em 0em 17em;
+	padding: 2em 0em 0em 7em;
+}
+
+p {
+	text-align: left;
+	font-weight: 300;
+	margin-top: .5em;
+
+}
