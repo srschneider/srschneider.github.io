@@ -93,10 +93,21 @@ h2 {
 	/*border-style: 1px #433D3C solid;*/
 }
 
-/*.thumb {
+/*.thumb-wrap {
 	height: 15em;
 	margin: .3em .3em;
+
+}
+
+.the-three {
+	width: 900px;
 }*/
+
+
+.thumb {
+	height: 15em;
+	margin: .3em .3em;
+}
 
 a.thumb-to-work {
 
@@ -106,12 +117,18 @@ a.thumb-to-work:hover {
 	opacity: 0.3;
 }
 
-.thumb-wrap {
-	height: 15em;
-	margin: .3em .3em;
+/*.hover-text {
+	opacity: 0;
+}*/
 
-}
-
+/*.hover-text:hover {
+	opacity: 0.7;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 2em;
+}*/
 
 
 .work-border {
