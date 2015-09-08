@@ -11,7 +11,7 @@ body {
 	font-weight: 400;
 	/*font-family: 'Source Sans Pro', sans-serif;*/
 	background-color: #FDF6EF;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 #intro {
@@ -29,8 +29,8 @@ body {
 }
 
 header {
-	/*position: fixed;*/
-	/*background: #A45152;*/
+	
+	
 	border-bottom: 1px #433D3C solid;
 	/*background: #81A1B1;*/
 	/*background: rgba(129,161,177, 0.1);*/
@@ -63,13 +63,21 @@ a.nav {
 
 a.nav:hover {
 	text-decoration: none;
-	color: #433D3C;
+	color: #252d34;
 }
 
 /*dropdown on medium with: web (IF, KC, C1), 
 mobile (Wallet, cats?), branding/campaign (BB, Cats, Nalgene, Fiesta, IF?), 
 illustration? (Teeth, small things Book, rocket-poster, snowy, cats & critters, bearhead, meowcakes!...) */
 
+h2 {
+	margin: 1em 0em 0em 0em;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-family: "roboto condensed", sans-serif;
+	font-size: 2em;
+}
 
 #work {
 	width: 920px;
@@ -80,52 +88,75 @@ illustration? (Teeth, small things Book, rocket-poster, snowy, cats & critters, 
 	display: block;
 	margin: 2em 0em;
 	padding: 0.7em 0.5em;
-	border: 1px rgba(67,60,60, 0.1) solid;
+	border: 1px rgba(37,45,52, 0.1) solid;
 	/*float: left;*/
 	/*border-style: 1px #433D3C solid;*/
 }
 
-.thumb {
-	height: 14em;
+/*.thumb {
+	height: 15em;
 	margin: .3em .3em;
-	/*border: 1px rgba(67,60,60, 0.1) solid;*/
-}
+}*/
 
 a.thumb-to-work {
-	color: #81A1B1;
-	/*z-index: 1;*/
+
 }
 
 a.thumb-to-work:hover {
-	/*text-decoration: none;*/
-	color: #000;
+	opacity: 0.3;
+}
+
+.thumb-wrap {
+	height: 15em;
+	margin: .3em .3em;
+
+}
+
+
+
+.work-border {
+	border-bottom: 1px #433D3C solid;
+	/*background: #81A1B1;*/
+	/*background: rgba(129,161,177, 0.1);*/
+	/*background: rgba(159,127,80, 0.35);*/
+	/*border-bottom: 1px rgba(255,255,255, 0.2) solid;*/
+	/*width:100%;*/
+	padding: 1em 3em;
+	margin: 0em 10em;
 }
 
 #about {
-
+	width: 920px;
+	margin: auto;
 }
 
 .about-section-wrapper {
-	border-top: 1px #433D3C solid;
-	padding: 1em 5em 3em 0em;
-	margin: 0em 10em;
-	border-bottom: 1px #433D3C solid;
+	/*border-top: 1px #433D3C solid;*/
+	/*padding: 1em 5em 3em 0em;*/
+	/*margin: 0em 10em;*/
+	/*border-bottom: 1px #433D3C solid;*/
 }
 
 .about-pic {
 	float: left;
-	margin: 2em 0em;
+	margin: 2em 0em 0em 1em;
 }
 
 .about-me-description {
 	/*float: left;*/
-	margin: 0em 4em 0em 17em;
-	padding: 2em 0em 0em 7em;
+	margin: 0em 0em 0em 20em;
+	padding: 2em 1em 2.5em 4em;
 }
 
 p {
+	line-height: 1.5em;
 	text-align: left;
 	font-weight: 300;
 	margin-top: .5em;
 
+}
+
+#contact {
+	width: 920px;
+	margin: auto;
 }
